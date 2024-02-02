@@ -20,7 +20,7 @@ async fn main() -> reqwest::Result<()> {
         ("syntax", args.syntax)
     ];
     let response: reqwest::Response = client.post(URL)
-        .form(&params)
+        .form(&params);
         /*.send()
         .await?;
     let url = response.url();
