@@ -6,6 +6,7 @@ use tokio;
 use reqwest;
 
 const URL: &str = "https://pastebin.ubuntu.com";
+
 #[tokio::main]
 async fn main() -> reqwest::Result<()> {
     let args: argv::Arg = argv::Arg::parse();
@@ -21,7 +22,7 @@ async fn main() -> reqwest::Result<()> {
         .send()
         .await?;
     let url = response.url();
-    println!("Url: {}", url);
+    println!("{}", url);
     
     Ok(())
 }
