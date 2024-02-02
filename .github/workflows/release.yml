@@ -25,9 +25,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: taiki-e/upload-rust-binary-action@v1
         with:
-          # (required) Comma-separated list of binary names (non-extension portion of filename) to build and upload.
-          # Note that glob pattern is not supported yet.
-          bin: ... # upaste-rs
+          bin: upaste-rs
           asset: LICENSE,README.md
           target: ${{ matrix.target }}
           token: ${{ secrets.GITHUB_TOKEN }}
