@@ -1,7 +1,6 @@
 mod argv;
 
 use clap::Parser;
-// use std::io::Result;
 use whoami;
 use tokio;
 use reqwest;
@@ -20,7 +19,7 @@ async fn main() -> reqwest::Result<()> {
         ("syntax", args.syntax)
     ];
     let response: reqwest::Response = client.post("https://pastebin.ubuntu.com")
-        .form(&params);
+        .form(&params)
         .send()
         .await?;
     let url = response.url();
