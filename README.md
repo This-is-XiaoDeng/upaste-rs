@@ -1,6 +1,6 @@
 # upaste-rs
 
-```bash
+```
 A CLI Application for Ubuntu PasteBin
 
 Usage: upaste-rs [OPTIONS] <TEXT>
