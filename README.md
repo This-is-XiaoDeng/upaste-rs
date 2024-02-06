@@ -3,10 +3,10 @@
 ```
 A CLI Application for Ubuntu PasteBin
 
-Usage: upaste-rs [OPTIONS] <TEXT>
+Usage: upaste-rs [OPTIONS] [TEXT]
 
 Arguments:
-  <TEXT>  The text that will be submitted
+  [TEXT]  The text that will be submitted
 
 Options:
   -s, --syntax <SYNTAX>          Syntax highlighting type [default: text]
