@@ -9,7 +9,7 @@ use clap::Parser;
 pub struct Arg {
 
     #[arg(help="The text that will be submitted")]
-    pub text: String,
+    pub text: Option<String>,
 
     #[arg(short='s', long="syntax", default_value="text", help="Syntax highlighting type")]
     pub syntax: String,
