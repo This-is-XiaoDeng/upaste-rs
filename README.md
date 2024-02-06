@@ -21,7 +21,7 @@ Options:
 ## License
 
     upaste-rs - A CLI Application for Ubuntu PasteBin
-    Copyright (C) 2024 XiaoDeng3386, Shirasawa-CN
+    Copyright (C) 2024  XiaoDeng3386, Shirasawa-CN
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
